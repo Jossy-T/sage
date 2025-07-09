@@ -1,0 +1,6 @@
+windows command 
+cd-
+dir-
+mkdir-
+rmdir-
+ 
