@@ -9,7 +9,7 @@ int main(){
 	cout<<"enter your age"<<endl;
 	cin>>age;
 	
-	if(isupper(name[1]), age<18){
+	if(isupper(name[0]), age<18){
 		
 		cout<<"not valid"<<endl;
 		}

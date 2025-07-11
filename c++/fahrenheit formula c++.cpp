@@ -10,6 +10,6 @@ int main(){
 	cin>>celcius;
 	
 	fahrenheit=(celcius*1.8)+32;
-	cout<<"fahrenheit"<<fahrenheit<<endl;
+	cout<<"fahrenheit  "<<fahrenheit<<endl;
 	return 9;
 }
