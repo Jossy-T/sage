@@ -1,23 +1,24 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int x;
+	int y;
 	
-	for(int i=0; i<5;i++){
+	for(int i=1; i<=5;i++){
 		
-	for(i=1;i<=5;i++){
-		
-		for(int j=5; j>i;j--)
-		{cout<<"";
+		for(int j=1; j<=5-i;j++){
+		cout<<" ";
 		}
-	}
 	
-	for(int y=1; y<(i*2)-1;y++){
-	cout<<"*";}
 	
+	for( y=0; y<(i*2-1);y++){
+	cout<<"*";
 	}
 	
 		cout<<endl;
+	
+	}
+	
+	
 	return 0;
 }
 	
