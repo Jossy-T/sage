@@ -1,0 +1,45 @@
+ h2,ol li {
+     color: rgb(99, 11, 180);
+     font-size: 30px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ ul li{
+    font-size: larger;
+    
+ }
+
+ .paragraph{
+    font-size: 30px;
+    background-color:rgb(15, 5, 51) ;
+    color: white;
+    line-height: auto;
+ }
+
+ #HTML {
+    color: red;
+ }
+
+ .css{
+    color: rgb(117, 77, 3);
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight:bolder;
+    text-align: center;
+ }
+
+.CSSproperties{
+    color: rgb(19, 12, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    line-height: auto;
+    border: 2px,solid,rgb(185, 106, 3);
+    border-radius: 20px;
+    padding: 70px;
+    margin: 60px;
+}
+
+.fontweight{
+    font-weight:bolder;
+}
