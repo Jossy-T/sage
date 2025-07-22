@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+</head>
+
+<body>
+    <form action="/test" method="get">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" placeholder="First Name"/>
+        <br/><br/>
+
+        <label for="password">password</label>
+        <input type="password" id="password" name="password" placeholder="password"/>
+        <br/><br/>
+
+         <label for="maleradio">Male</label>
+        <input type="radio" id="maleradio" name="gender" value="male"/>
+
+        <label for="femaleradio">Female</label>
+        <input type="radio" id="femaleradio" name="gender" value="female"/>
+        <br/><br/>
+
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
+</body>
+
+</html>

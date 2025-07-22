@@ -43,3 +43,11 @@
 .fontweight{
     font-weight:bolder;
 }
+
+button{
+   width: 250px;
+   height: 30px;
+   margin: 30px;
+   padding: 20px;
+
+}
