@@ -7,20 +7,55 @@
 </head>
 
 <body>
-    <form action="/test" method="get">
+    <form action="/test" method="post">
+        <!--text-->
         <label for="firstname">First Name</label>
-        <input type="text" id="firstname" name="firstname" placeholder="First Name"/>
+        <input type="text" id="firstname" name="firstname" placeholder="First Name" required/>
         <br/><br/>
 
         <label for="password">password</label>
-        <input type="password" id="password" name="password" placeholder="password"/>
+        <input type="password" id="password" name="password" placeholder="password" required/>
         <br/><br/>
+            <!--email password form-->
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="Email"><br/><br/>
 
+        <label for="password"></label>
+        <input type="password" id="password" name="password" placeholder="password" required/><br/><br/>
+            <!--male female-->
          <label for="maleradio">Male</label>
-        <input type="radio" id="maleradio" name="gender" value="male"/>
+        <input type="radio" id="maleradio" name="gender" value="male" required/>
 
         <label for="femaleradio">Female</label>
-        <input type="radio" id="femaleradio" name="gender" value="female"/>
+        <input type="radio" id="femaleradio" name="gender" value="female" required/>
+        <br/><br/>
+
+        <!--check box-->
+        <label for="music checkbox">music</label>
+        <input type="checkbox" id="music checkbox" name="checkbox" value="music"/><br/>
+
+         <label for="sport checkbox">sport</label>
+        <input type="checkbox" id="sport checkbox" name="checkbox" value="sport"/><br/>
+
+         <label for="reading checkbox">reading</label>
+        <input type="checkbox" id="reading checkbox" name="checkbox" value="reading"/><br/>
+
+         <label for="movie checkbox">movie</label>
+        <input type="checkbox" id="movie checkbox" name="checkbox" value="movie"/>
+        <br/><br/>
+            <!--drop down-->
+        <label for="country">country</label>
+        <select name="country" id="country">
+            <option value="eth">Ethiopia</option>
+            <option value="USA">USA</option>
+            <option value="uk">England</option>
+        </select> 
+        <br/><br/>
+
+        <label for="comment">comment</label>
+        <br/><br/>
+        <textarea name="comment" id="comment" placeholder="Type your idea" rows="5" cols="40"></textarea>
+        
         <br/><br/>
 
         <button type="submit">submit</button>
