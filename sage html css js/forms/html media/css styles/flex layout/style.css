@@ -1,0 +1,29 @@
+.col1{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.head{
+    flex-shrink: 1;
+    flex-basis: 500px;
+    align-self: flex-end;
+}
+
+.para{
+    flex-shrink: 1;
+
+}
+
+.bar{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}

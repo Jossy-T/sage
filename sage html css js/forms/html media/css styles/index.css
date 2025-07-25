@@ -1,1 +1,9 @@
-.box{}
+.box{
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+p{
+    line-height: 1.5;
+}
