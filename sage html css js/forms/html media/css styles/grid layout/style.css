@@ -1,0 +1,27 @@
+p{
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+.grid-box{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 5px;
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+/* .item2{
+    grid-column-start: 1;
+    grid-column-end: 8;
+}
+
+.item3{
+    grid-column-start: 1;
+    grid-row-end: 3;
+} */
