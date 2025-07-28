@@ -1,0 +1,149 @@
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: medium;
+    color:#4D4D4D ;
+    line-height: 16.71px;
+    margin: 20px;
+    padding: 11.14px 100.23px;
+    display: flex;
+    justify-content: space-between;
+    gap: 43.85px;
+    
+ }
+ 
+ .hero{
+    align-items: center; 
+    margin: 15px;
+} 
+
+.herosection{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.register1{
+    color: white;
+    background-color:#4CAF4F ;
+    border: none;
+    border-radius: 2.78px;
+    padding: 9.74px 22.27px;
+
+}
+
+.maincontent{
+    background-color: #F5F7FA;
+    padding: 100.23px 66.28px;
+    display: flex;
+    /* flex-wrap: wrap;
+    flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 72.39px;
+}
+
+.right{
+    color:#4D4D4D ;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-style:bold; */
+    font-size: 35px;
+    line-height: 52.9px;
+    font-weight: 600;
+    gap:22.27px;
+    align-items: center;
+}
+
+h1{
+    /* line-height: 100px; */
+    font-size: 44px;
+    padding: 0px;
+    margin: 0px;
+}
+.type{
+    color:#4CAF4F ;
+}
+
+.para{
+    font-weight: 400;
+    font-style: none;
+    font-size: 11.14px;
+    line-height: 16.71px;
+    padding:0px; 
+    margin: 0px;
+}
+
+.register2{
+    background-color: #4CAF4F;
+    color: white;
+    padding:11.14px 22.27px;
+    border: none;
+    border-radius: 2.78px;
+}
+
+ .illustration{
+    padding: 0px 10px; 
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    flex-direction: column;
+} 
+
+ /* .dot{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    align-content: flex-end;
+    align-self: flex-end;
+}  */
+
+.secondcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header3{
+    color: #4D4D4D;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25.06px;
+    line-height: 30.63px;
+    font-style: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondpara p{
+    color: #717171;
+    padding: 0px;
+    line-height: 16.71px;
+}
+
+.icons{
+    margin: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header3below{
+    color: #4D4D4D;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25.06px;
+    line-height: 30.63px;
+    font-style: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
