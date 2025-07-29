@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="signupform">
+        <img src="Group 4.png" alt="image" class="image">
+        <div class="signup">
+            <div class="text">
+                <h2>Sign Up</h2>
+                <p>Let's get you all st up so you can access your personal account.</p>
+            </div>
+            
+            <form action="/test" method="post">
+            
+                <!-- firstname -->
+                <label  for="firstname"></label>
+                <input type="text" id="firstname" name="firstname" placeholder="First Name" required/>
+
+                <!-- lastname -->
+                <label for="lastname"></label>
+                <input type="text" id="lastname" name="firstname" placeholder="last Name" required/><br/><br/>
+                
+
+                <!--email password form-->
+                <label  for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+
+                <label  for="phonenumber"></label>
+                <input type="phonenumber" id="phonenumber" name="phonenumber" placeholder="phonenumber" required><br/><br/>
+
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="password" required/><br/><br/>
+
+                <label for="confirmpassword"></label>
+                <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm Password" required/><br/><br/>
+
+                
+                <div class="button"><button  type="submit">Creat account</button>
+                <br/><br/>
+                 <!-- checkkbox -->
+                <input type="checkbox" id="policy term" name="checkbox" value="policy term"/>
+                <label for="policy term"><p style="display: inline;">I agree to all the <span>Terms</span> and <span>Privacy Policies</span></p></label>
+
+            </div>
+               
+            </form>
+        </div>
+    </div>
+</body>
+</html>
