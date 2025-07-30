@@ -1,4 +1,8 @@
+// bulb on/off
+
 let bulb="off";
+const newDiv= document.createElement("h1")
+
 function turnon(){
     document.getElementById("bulb").src=""
     bulb="on";
@@ -20,6 +24,32 @@ function toggle(){
     }
 }
 
+// upto this
+
+// document.getElementById("btClick").addEventListener("click",insertHtml)
+$("#btClick").click(insertHtml)
+function insertHtml(){
+    const el = document.getElementById("hello")
+    el.style.fontSize="50px"
+    el.style.color="red"
+
+    newDiv.innerText="added element"
+}
+// jquery
+$("#box")
+.css("color","white")
+.css("background-color","black")
+.css("display","flex")
+.css("justify-content","center")
+.css("margin","30px")
+.css("width","200px")
+.slideUp(2000)
+.slideDown(3000)
+.css("hight","auto");
+
+$("#heading")
+.css("font-weight","bold")
+.css("font-size","30px")
 const person={
     firstName:"Yosef",
     lastName:"Tanu",
@@ -58,3 +88,24 @@ let name;
 console.log("the statement is"+" "+value);
 
 console.log(name??"73772828");
+
+
+let names=[ "henok", "beza", "markos"];
+
+for(let name of names){
+    console.log(name);
+}
+
+let car={
+    name: "porch 911(The most selled car)",
+    model:600,
+    horsePower:1200,
+    color:"Dark Black",
+    interiorColor:"pure white",
+    tireLength:500,
+}
+
+for(let cars in car){
+    console.log(cars + " =",car[cars]);
+}
+
