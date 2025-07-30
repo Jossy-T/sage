@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="image1">
+        <img  src="Group 47603 (1).png" alt="logo">
+    </div>
     <div class="signupform">
         <img src="Group 4.png" alt="image" class="image">
         <div class="signup">
@@ -18,9 +21,10 @@
             <form action="/test" method="post">
             
                 <!-- firstname -->
+            
                 <label  for="firstname"></label>
                 <input type="text" id="firstname" name="firstname" placeholder="First Name" required/>
-
+        
                 <!-- lastname -->
                 <label for="lastname"></label>
                 <input type="text" id="lastname" name="firstname" placeholder="last Name" required/><br/><br/>
@@ -38,14 +42,26 @@
 
                 <label for="confirmpassword"></label>
                 <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm Password" required/><br/><br/>
-
+                   
+                <div class="checkbox">
+                    <!-- checkkbox -->
+                    <input type="checkbox" id="policy term" name="checkbox" value="policy term"/>
+                    <label for="policy term"><p style="display: inline;">I agree to all the <span>Terms</span> and <span>Privacy Policies</span></p></label>
+                </div>
                 
                 <div class="button"><button  type="submit">Creat account</button>
                 <br/><br/>
-                 <!-- checkkbox -->
-                <input type="checkbox" id="policy term" name="checkbox" value="policy term"/>
-                <label for="policy term"><p style="display: inline;">I agree to all the <span>Terms</span> and <span>Privacy Policies</span></p></label>
+               <div class="footer"> 
+                    <div class="line">
+                        <p>____________________<span class="orwith">or Sign Up with</span>____________________</p>
+                    </div>
 
+                    <div id="image">
+                        <img src="Frame 224.png" alt="">
+                        <img src="Frame 225.png" alt="">
+                        <img src="Frame 226.png" alt="">
+                    </div>
+                </div>
             </div>
                
             </form>

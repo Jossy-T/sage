@@ -2,6 +2,13 @@ body{
     background-color: #EFF3FF;
 }
 
+.image1{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 50px;
+}
+
 .signupform{
     background-color: rgb(255, 255, 255);
     margin: 140px 0px;
@@ -42,18 +49,20 @@ span{
 input[type="text"] , input[type="phonenumber"],
 input[type="email"]{
     margin: 5px;
-    width: 230px;
-    height: 45px;
-    border-color: rgb(230, 230, 230);
+    width: 190px;
+    height: 35px;
+    border-color: rgba(196, 194, 194,0.5);
     border-radius:5px;
 }
 
+
+
 input[type="password"], input [type="confirm password"]{
-    width: 500px;
-    height: 45px;
+    width: 406px;
+    height: 35px;
     margin: 5px;
     border-radius: 5px;
-    border-color:rgb(230, 230, 230) ;
+    border-color: rgba(196, 194, 194,0.5);
 }
 
 
@@ -61,7 +70,7 @@ input[type="password"], input [type="confirm password"]{
 
 button {
     display: block;        /* Make the button a block-level element */
-    margin: 10px auto;     /* Auto left & right margin centers it */
+    margin:  40px auto;     /* Auto left & right margin centers it */
     width: 180px;
     height: 40px;
     background-color: rgb(18, 18, 245);
@@ -79,6 +88,37 @@ button:active {
     color: white;
     background-color: rgb(0, 17, 0);  /* Color while button is being clicked */
 }
+
+
+.checkbox{
+    display: flex;
+    /* justify-content: center; */
+    margin: 10px;
+    
+}
+
+.line{
+    opacity: 0.7;
+    margin: -5px;
+    display: flex;
+    justify-content: center;
+}
+
+.orwith{
+    font-size: 12px;
+    color: black;
+}
+
+#image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+/* .footer{
+    margin: -50px;
+} */
 
 
 @media  screen and (max-width:640px) {
