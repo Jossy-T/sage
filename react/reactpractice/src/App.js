@@ -3,6 +3,7 @@ import Button from "./components/button/Button"
 import './App.css';
 import Reactlist from "./components/list/Reactlist";
 import {useState} from "react"
+import UseEffect from "./components/Hooks/UseEffect";
 
 // function App() {
 //   return (
@@ -30,6 +31,7 @@ function App(){
   return<div>
   <h1>FIRST component</h1>
   <Button name="Buy Now"/>
+  
   <Reactlist/>
 
     <div className="btn1">
@@ -37,6 +39,8 @@ function App(){
       <h1>{counter}</h1>
       <button onClick={()=>setCounter(counter-1)}>-</button>
     </div>
+
+    <UseEffect/>
   </div>
 }
 export default App
