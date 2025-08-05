@@ -4,6 +4,7 @@ import './App.css';
 import Reactlist from "./components/list/Reactlist";
 import {useState} from "react"
 import UseEffect from "./components/Hooks/UseEffect";
+import Users from "./components/json users/Users";
 
 // function App() {
 //   return (
@@ -40,7 +41,11 @@ function App(){
       <button onClick={()=>setCounter(counter-1)}>-</button>
     </div>
 
-    <UseEffect/>
+    <UseEffect/> <br/> <br/>
+  <div className="users" style={{backgroundColor:"black",color:"white",fontSize:"15px",fontFamily:"sanserif",padding:"40px", lineHeight:"30px"}}>
+    <Users/>
+  </div>
+
   </div>
 }
 export default App
