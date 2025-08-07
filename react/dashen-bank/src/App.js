@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import NotFound from './pages/NotFound';
 import Cata from './components/Cata';
+import Electronics from './components/Electronics';
 
 
 
@@ -12,15 +13,15 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/">
-          <Route index element={<Home/>}>
-            <Route path="about" element={<About/>}/>
-            <Route path="contact" element={<Contact/>}/>
-            <Route path="Cata" >
-              <Route index element={<Cata/>}/>
-              <Route path="Electronics" element={<Electronics/>}/>
-            </Route>
-            <Route path="*" element={<NotFound/>}/>
-          
+          <Route index element={<Home/>}/>
+          <Route path="about" element={<About/>}/>
+          <Route path="contact" element={<Contact/>}/>
+          <Route path="Cata" >
+            <Route index element={<Cata/>}/>
+            <Route path="Electronics" element={<Electronics/>}/>
+          </Route>
+          <Route path="*" element={<NotFound/>}/>
+        
         </Route>
       </Routes>
     </BrowserRouter>
