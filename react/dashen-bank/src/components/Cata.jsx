@@ -3,8 +3,10 @@ import Header from "./Header";
 
 function Cata(){
     return <>
-    <Header/>
+    <div>
+
     <Link to="/Cata/Electronics">Electronics</Link>
+    </div>
     </>
 }
 export default Cata

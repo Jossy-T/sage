@@ -5,6 +5,8 @@ import About from './pages/About';
 import NotFound from './pages/NotFound';
 import Cata from './components/Cata';
 import Electronics from './components/Electronics';
+import Layout from './components/layout/Layout';
+import UsersPro from './components/users/UsersPro';
 
 
 
@@ -12,10 +14,11 @@ function App() {
   return <>
     <BrowserRouter>
       <Routes>
-        <Route path="/">
+        <Route path="/" element={<Layout/>}>
           <Route index element={<Home/>}/>
           <Route path="about" element={<About/>}/>
           <Route path="contact" element={<Contact/>}/>
+          <Route path=":id" element={<UsersPro/>}/>
           <Route path="Cata" >
             <Route index element={<Cata/>}/>
             <Route path="Electronics" element={<Electronics/>}/>
