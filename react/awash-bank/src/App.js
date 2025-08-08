@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Button from './Awash/Button';
 import AwashCounter from './Awash/AwashCounter';
