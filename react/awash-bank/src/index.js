@@ -3,8 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {Provider} from "react-redux"
-import {store} from "./redux/store"
+
+import {Provider} from "react-redux" //the "provider" lets React components read from and write to the store.
+import {store} from "./redux/store" 
+/* {store} is the exported file from store.js  
+export const store=configureStore({...}) the variable name (store) */
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -11,4 +11,5 @@ const counter = createSlice({
 });
 
 export const{add,subtract,reset}= counter.actions;
-export default counter.reducer;
+export default counter.reducer; 
+// Counter export from variable not from name
