@@ -7,18 +7,18 @@ import Task from './route/pages/Task';
 
 function App() {
   return (
-   <div>
+        <div>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home/>}/>
-          <Route index element={<About/>}/>
-           <Route index element={<Task/>}/>
+          <Route path="About" element={<About/>}/>
+          <Route path="add" element={<Task/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
 
-   </div>
+        </div>
   );
 }
 
