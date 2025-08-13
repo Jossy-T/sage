@@ -1,12 +1,17 @@
 import { useState } from 'react';
-import { Text, View,Image,TextInput,Button } from 'react-native';
-import { Switch } from 'react-native-web';
+import { Text, View,Image,TextInput,Button,Form, SafeAreaView } from 'react-native';
+import { Switch } from 'react-native';
+import { ActivityIndicator } from 'react-native';
 
 export default function App() {
     const [on,setOn]=useState(false)
 
   return (
     <View style={{flex:1,justifyContent:"center",alignItems:"center"}}>
+        <SafeAreaView>
+          
+        </SafeAreaView>
+
       <Text style={{fontSize:25,fontWeight:"700"}}>Open up App.js to start working </Text>
 
       <Image source={require("./assets/favicon.png")}
@@ -16,11 +21,14 @@ export default function App() {
 
       <TextInput 
       placeholder='Name'
-      style={{height:50,textAlign:"center",color:"green",fontWeight:"bold", borderWidth:2, margin:20}}
+      style={{height:50,width:150, textAlign:"center",color:"green",fontWeight:"bold", borderWidth:2, margin:20}}
       />
-      <Button title="click" onPress={()=>alert("succesfull")}/>
+
+      <Button title="click" onPress={()=>alert("Nice")}/>
 
         <Switch value={on} onValueChange={setOn}/>
+        <ActivityIndicator size="large" color="#082a97"/>
+        
     </View>
   );
 }
