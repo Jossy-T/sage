@@ -53,14 +53,14 @@ const handleSubmit=(e)=>{
                 <div style={{display:"flex",margin:"30px" ,textAlign:"center"}}>
 
                     {/* first Name */}
-                    <lable htmlFor="firstName"></lable>
+                    <label htmlFor="firstName"></label>
                     <input style={{width:"200px", height:"30px", color:"red", borderRadius:"10px", margin:"0px 10px",padding:"4px",fontWeight:"bold"}} 
                     type="text" id="firstName" placeholder="First Name" name="firstName" required
                     onChange={ (e)=> setFirstName(e.target.value)
                     }/> <br/><br/>
 
                     {/* Last Name*/}
-                    <lable htmlFor="lastName"></lable>
+                    <label htmlFor="lastName"></label>
                     <input  style={{width:"200px", height:"30px", color:"red", borderRadius:"10px", padding:"4px",fontWeight:"bold"}}  
                     type="text" id="lastName" placeholder="Last Name" name="lastName" required
 
