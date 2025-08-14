@@ -9,6 +9,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
 import Home from './pages/Home';
 import About from './pages/About';
+import Flatlist from './pages/Flatlist';
 
 const Stack=createNativeStackNavigator();
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <Stack.Navigator initialRouteName='Home'>
           <Stack.Screen name="Home" component={Home}/>
           <Stack.Screen name="About" component={About}/>
+            <Stack.Screen name="Flatlist" component={Flatlist}/>
         </Stack.Navigator>
       </NavigationContainer>
   )
