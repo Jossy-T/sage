@@ -10,6 +10,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import Home from './pages/Home';
 import About from './pages/About';
 import Flatlist from './pages/Flatlist';
+import Users from './pages/Users';
 
 const Stack=createNativeStackNavigator();
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
           <Stack.Screen name="Home" component={Home}/>
           <Stack.Screen name="About" component={About}/>
             <Stack.Screen name="Flatlist" component={Flatlist}/>
+            <Stack.Screen name="Users" component={Users}/>
         </Stack.Navigator>
       </NavigationContainer>
   )

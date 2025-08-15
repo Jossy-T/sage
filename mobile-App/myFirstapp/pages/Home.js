@@ -9,6 +9,8 @@ export default function Home({navigation}){
             <Button  title="About" onPress={()=>navigation.navigate("About")}/>
 
             <Button title="Flatlist" onPress={()=>navigation.navigate("Flatlist")}/>
+
+            <Button title="Users" onPress={()=>navigation.navigate("Users")}/>
         </View>
     )
 }
