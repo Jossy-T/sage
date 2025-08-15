@@ -1,6 +1,6 @@
 
 import { Button, Text, TouchableOpacity, View ,Image} from "react-native"
-import { add, reset, subtract } from "../redux/slice"
+import { add, multi, reset, subtract } from "../redux/slice"
 import { useDispatch, useSelector } from "react-redux"
 
 
@@ -33,6 +33,14 @@ export default function Counter(){
                 
                 <Text style={{margin:10,color:"white"}}>Reset</Text>
             </TouchableOpacity> 
+
+
+             {/* <TouchableOpacity  onPress={() => dispatch(multi())}
+                style={{ backgroundColor: "green", padding: 2, borderRadius:20, margin:10,width: 100, alignItems: "center" }}>
+                
+                <Text style={{margin:10,color:"white"}}>multi</Text>
+            </TouchableOpacity>  */}
+
 
         </View>
             <Text style={{marginTop:30,textAlign:"center",fontSize:12,fontWeight:"bold",lineHeight:20}}>Counter apps are designed to help users track and manage numerical counts, whether for personal use or in specific applications. 

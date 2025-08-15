@@ -7,8 +7,9 @@ const counter = createSlice({
         add:(state)=>{state.value+=1},
         subtract:(state)=>{state.value-=1},
         reset:(state)=>{state.value=0},
+        multi:(state)=>{state.value*=2}
     }
 });
 
-export const{add,subtract,reset}=counter.actions;
+export const{add,subtract,reset,multi}=counter.actions;
 export default counter.reducer;
