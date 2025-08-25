@@ -21,11 +21,12 @@ const [checkbox, setCheckbox]= useState([])
 // };
 
 const handleSubmit=(e)=>{
+
     e.preventDefault();
     alert(
         "First Name:  "+ firstName + "\n"+
         "Last Name:  "+ lastName + "\n"+
-        "password:"+ password + "\n"+
+        // "password:"+ password + "\n"+
         "Email:"+ email +"\n"+
         "sex:  "+ gender + "\n"
         // "Hobbies:  "+ checkbox + "\n"
