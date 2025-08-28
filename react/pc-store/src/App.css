@@ -1,0 +1,234 @@
+.add-item{
+  display: flex;
+  justify-content:flex-end;
+  padding: 10px;
+  border: 0.2em solid blue;
+  background-color:blue;
+  color: white;
+  border-radius: 10px;
+  margin-left: 600px;
+}
+
+.pc-lists{
+  display:flex;
+  flex-direction: column;
+  width: fit-content;
+  /* align-items: center; */
+  background-color: greenyellow;
+  border-radius: 15px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.pc-spec{
+  padding: 20px;
+  margin: 0px;
+  
+}
+
+.price{
+  background-color: rgb(4, 73, 21);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: white;
+  width:fit-content;
+  
+}
+
+.edit-delete{
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 100px;
+}
+.edit{
+  background-color: rgb(46, 2, 71);
+  color: white;
+}
+
+.delete{
+  background-color: rgba(250, 2, 2, 0.788);
+  
+}
+
+.edit-delete button{
+  padding: 5px;
+  margin-right:10px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  border-radius: 10px;
+  width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
