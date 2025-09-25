@@ -1,4 +1,5 @@
 import {useState} from "react"
+import Spline from '@splinetool/react-spline';
 import logo from '../unnamed (1).png'; // adjust path if needed
 
 
@@ -35,7 +36,7 @@ const handleSubmit=(e)=>{
 
             
         
-    return<div>
+return <div>
     <div>
         <h1 style={{color:"white", backgroundColor:"red", display:"flex", justifyContent:"center", borderRadius:"10px", padding:"10px 0px"}}>Zemen Bank</h1>
     </div>
@@ -111,6 +112,9 @@ const handleSubmit=(e)=>{
         </form>
     </div>
 </div>
+    <div>
+        <Spline style={{zIndex:100}} scene="https://prod.spline.design/3Due2Yzbji2HOP56/scene.splinecode" />
+    </div>
 </div>
 }
 
